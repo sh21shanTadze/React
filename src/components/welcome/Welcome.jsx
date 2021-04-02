@@ -37,11 +37,11 @@ const Welcome = () => {
             <Button onClick={decreaseByFive} text="-5" />
             <Button onClick={decreaseByAhundred} text="-100"/>
             <Greeting text={counter}/>
-            <Button onClick={blackDiv} text="Red" type="black" />
-            <Button onClick={whiteDiv} text="Pink" type="white" />
+            <Button onClick={blackDiv} text="Black" type="black" />
+            <Button onClick={whiteDiv} text="White" type="white" />
             <Button onClick={yellowDiv} text="Yellow" type="yellow" />
-            <Button onClick={redDiv} text="Green" type="red" />
-            <Button onClick={goldDiv} text="Purple" type="gold" />
+            <Button onClick={redDiv} text="Red" type="red" />
+            <Button onClick={goldDiv} text="Gold" type="gold" />
             <Button onClick={blueDiv} text="Blue" type="blue" />
             <div className="color-div" style={{backgroundColor:color, color:textColor}}>
                 <p>Change Color</p>
