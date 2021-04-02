@@ -1,0 +1,35 @@
+.btn {
+    color: black;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.btn.black{
+    background-color: black;
+    color: white;
+}
+
+.btn.white{
+    background-color: white;
+    color: black;
+}
+
+.btn.yellow{
+    background-color:yellow;
+    color: black;
+}
+
+.btn.red{
+    background-color: red;
+}
+
+.btn.gold{
+    background-color: goldenrod;
+}
+.btn.blue{
+    background-color: deepskyblue;
+    color: black;
+}
+
